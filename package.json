@@ -1,0 +1,19 @@
+{
+  "name": "project-node-linx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "api-query-params": "^4.15.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
